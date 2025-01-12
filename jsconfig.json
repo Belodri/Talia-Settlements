@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "ES2022",
+        "target": "ES2022",
+        "lib": [
+            "DOM",
+            "ESNext"
+        ],
+        "allowJs": true,
+        "moduleResolution": "node",
+    },
+    "exclude": ["node_modules", "**/node_modules/**"],
+    "include": ["scripts/module.mjs", "system/dnd5e/**/*.mjs", "foundry/**/*.js", "foundry/**/*.mjs"],
+    "typeAcquisition": {
+        "include": ["jquery"]
+    }
+}

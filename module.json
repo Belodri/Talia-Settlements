@@ -1,0 +1,43 @@
+{
+  "id": "_MODULE_ID_",
+  "title": "New Module",
+  "description": "",
+  "version": "#{VERSION}#",
+  "library": "false",
+  "manifestPlusVersion": "1.2.0",
+  "compatibility": {
+    "verified": "12.331",
+    "maximum": "12.999"
+  },
+  "authors": [
+    {
+      "name": "Dave",
+      "url": "https://github.com/Belodri",
+      "discord": "belodri"
+    }
+  ],
+  "esmodules": [
+    "scripts/module.mjs"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "flags": {
+    "hotReload": {
+      "extensions": [ "css", "hbs", "json" ],
+      "paths": [ "templates", "styles", "languages"]
+    }
+  }
+}
