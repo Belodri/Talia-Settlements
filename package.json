@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "talia-settlements",
   "version": "1.0.0",
   "description": "",
   "main": "scripts/module.mjs",
@@ -7,16 +7,8 @@
     "createSymlinks": "node ./tools/create-symlinks.mjs",
     "postinstall": "npm run createSymlinks"
   },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
   "author": "Dave",
   "license": "MIT",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
   "devDependencies": {
     "@eslint/js": "^9.17.0",
     "eslint": "^9.17.0",
